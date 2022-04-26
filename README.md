@@ -2,7 +2,7 @@
 
 This repository contains all the data and code needed to reproduce the results from the scientific article "Spinel nitride solid solutions: charting properties in the configurational space with explainable machine learning", written by Pablo Sánchez-Palencia, Said Hamad, Pablo Palacios, Ricardo Grau-Crespo and Keith T. Butler.
 
-### repository_data
+### repository_data/
 The folder repository_data/ contains the crystal structure of all the configurations in the studied configurational space in POSCAR format, as well as the results from the DFT calculations carried out with VASP program, including bandgaps and total energies. It also includes the code where the correlation between GGA and HSE bandgap results is calculated.
 
 The correspondence between GGA results in "vasp-energies.csv" and the POSCAR structures is read from the "gga_structures_list.txt". The info in the .csv file is organised in the following columns: tag, inversion degree, total energy and bandgap. 
