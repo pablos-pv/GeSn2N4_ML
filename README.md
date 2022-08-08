@@ -22,7 +22,7 @@ The folder ML_models/ includes the code to train and score the different machine
 
 ### Version control
 The version of this repository corresponding with the results presented in the work "Spinel nitride solid solutions: charting properties in the configurational space with explainable machine learning" can be accessed through its version number, by using: 
-git checkout ae2b39e04fefc176ef4ee5a5efe7e41442097245   
+git checkout d2bd4a00f2a90f13f7c306e513235c22e26db014   
 
 
 [1] https://sol.physik.hu-berlin.de/cell/
