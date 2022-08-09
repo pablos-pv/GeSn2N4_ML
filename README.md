@@ -14,3 +14,10 @@ The folder descriptors/ includes the code to generate the different descriptors 
 
 ### ML_models/
 The folder ML_models/ includes the code to train and score the different machine learning models, which use the .pkl files as input. The subfolder ensemble_weights/ saves the weights of the neural networks to be able to reproduce the same results by running the mlp.ipynb code in load mode.  
+
+### cell_code/
+The folder cell_code/ contains the code required to generate the ccfs. Note that in order to run this you will also require the `clusterx` package.
+```
+pip install clusterx
+```
+More details on `clusterx` can be found on the webpage https://sol.physik.hu-berlin.de/cell/more/installation.html
